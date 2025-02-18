@@ -1,5 +1,5 @@
 Handle: CDS
-Version: v6.0.1
+Version: v6.0.2
 Nodes:
   program:
     Desc: "Program in the Cancer Data Service refer to a broad framework of goals under which related projects or other research activities are grouped. Example - Clinical Proteomic Tumor Analysis Consortium (CPTAC)"
@@ -477,7 +477,6 @@ Relationships:
         Mul: one_to_one
       - Src: proteomic
         Dst: file
-        Mul: one_to_one
   of_image:
     Props: null
     Mul: one_to_one
