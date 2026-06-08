@@ -544,19 +544,25 @@ Relationships:
     Ends:
       - Src: participant
         Dst: study
+        Req: true
       - Src: file
         Dst: study
+        Req: true
       - Src: pdx
         Dst: study
+        Req: true
       - Src: consent_group
         Dst: study
         Mul: many_to_many
+        Req: true
       - Src: investigator
         Dst: study
+        Req: true
       - Src: sample
         Dst: study
       - Src: Protocol
         Dst: study
+        Req: true
   of_consent_group:
     Props: null
     Mul: many_to_one
