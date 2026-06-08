@@ -626,6 +626,7 @@ Relationships:
       - Src: image
         Dst: file
         Mul: one_to_one
+        Req: true
       - Src: proteomic
         Dst: file
       - Src: Protocol
@@ -633,6 +634,7 @@ Relationships:
   of_image:
     Props: null
     Mul: one_to_one
+    Req: true
     Ends:
       - Src: MultiplexMicroscopy
         Dst: image
